@@ -1,0 +1,61 @@
+.container {
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto;	
+}
+td {
+	vertical-align: top; 
+}
+table{
+	border-collapse: collapse; 
+	border-spacing: 0; 
+	width: 100%;
+}
+ul, ol { 
+	margin: 1em 0; 
+	padding: 0 0 0 40px; }
+
+dd { 
+margin: 0 0 0 40px; 
+}
+nav ul, nav ol { 
+	list-style: none; 
+	list-style-image: none; 
+	margin: 0; 
+	padding: 0; 
+}
+::-moz-selection { 
+	background: #fe57a1; 
+	color: #fff; 
+	text-shadow: none; 
+}
+::selection { 
+	background: #fe57a1; 
+	color: #fff; 
+	text-shadow: none; 	
+}
+thead {
+	font-weight: bold;
+}
+td {	
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	border: 0; 
+	padding: 0; 
+}
+textarea { 
+	overflow: auto; 
+	vertical-align: top; 
+	resize: vertical;
+}
+.experience > .title {
+	margin-bottom: 0px;
+}
+.experience > .meta {
+	font-size: 0.8em;
+}
+.experience > .meta > .date {
+	float: right;
+}
