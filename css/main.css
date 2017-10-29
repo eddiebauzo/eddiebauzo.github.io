@@ -1,0 +1,76 @@
+body {
+	color: black;
+	background: linear-gradient(to bottom, #66ff33 0%, #666633 100%);
+	text-align: center;
+	font-size: 20px;
+	font-family: fantasy;
+}
+h1 {
+	color: white;
+	background: linear-gradient(to bottom, #66ff33 0%, #666633 100%);
+	border: solid linear-gradient(to bottom, #66ff33 0%, #666633 100%) 15px;
+	text-align: left;
+	font-size: 50px;
+	font-family: fantasy;
+}
+h2 {
+	color: black;
+	background: linear-gradient(to bottom, #66ff33 0%, #666633 100%)
+}
+h3 {
+	text-align: center;
+	background: linear-gradient(to bottom, #66ff33 0%, #666633 100%);
+}
+p {
+	color: black;
+	background: white;
+	font: 20px/1.5 courier;
+	border: solid black;
+}
+img {
+	background: solid white center;
+	opacity: 0.3;
+}
+#footer-info {
+	background: linear-gradient(to bottom, #66ff33 0%, #666633 100%) center;
+	color: white;
+	border: 4px linear-gradient(to bottom, #66ff33 0%, #666633 100%) solid;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 22px 22px;
+    text-decoration: none;
+	font-size: 25;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: gray;}
+
+ul.topnav li a.active {background-color: gray;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
