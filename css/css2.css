@@ -50,6 +50,15 @@ textarea {
 	vertical-align: top; 
 	resize: vertical;
 }
+.education > .title {
+	margin-bottom: 0px;
+}
+.education > .meta {
+	font-size: 0px;
+}
+.education > .meta > .date {
+	float: right;
+}
 .experience > .title {
 	margin-bottom: 0px;
 }
